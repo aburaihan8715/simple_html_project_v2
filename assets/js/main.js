@@ -1,5 +1,5 @@
-$(document).ready(function () {
-  $('.owl-carousel').owlCarousel({
+jQuery(document).ready(function () {
+  jQuery('.owl-carousel').owlCarousel({
     loop: true,
     autoplay: true,
     responsive: {
@@ -11,7 +11,6 @@ $(document).ready(function () {
       },
       1000: {
         items: 1,
-        loop: false,
       },
     },
   });
