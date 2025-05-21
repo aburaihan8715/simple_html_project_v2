@@ -91,10 +91,14 @@ HEADER
   margin-right: 20px;
 }
 
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
 .menu {
   float: right;
   width: 690px;
-  margin-top: 14px;
   text-align: right;
 }
 
@@ -167,32 +171,6 @@ SERVICES CSS
 }
 .single_service .link {
   margin-top: 20px;
-}
-
-/* =================
-ABOUT CSS
-====================*/
-
-.about_area {
-  margin-top: 70px;
-}
-.about {
-  float: left;
-  width: 700px;
-  margin-right: 30px;
-}
-.about h4 {
-  font-size: 36px;
-  color: var(--black_color_tint_1);
-  margin-bottom: 26px;
-  text-transform: capitalize;
-}
-.about p {
-  font-size: 16px;
-  margin-top: 15px;
-}
-.about .link {
-  margin-top: 30px;
 }
 
 /* ===============
@@ -304,6 +282,28 @@ FOOTER
 /* ==========
 2. ABOUT PAGE
 ============== */
+
+.about_area {
+  margin-top: 70px;
+}
+.about {
+  float: left;
+  width: 700px;
+  margin-right: 30px;
+}
+.about h4 {
+  font-size: 36px;
+  color: var(--black_color_tint_1);
+  margin-bottom: 26px;
+  text-transform: capitalize;
+}
+.about p {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.about .link {
+  margin-top: 30px;
+}
 
 .page_banner {
   padding: 120px 0;
